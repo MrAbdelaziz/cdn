@@ -1,0 +1,287 @@
+@media(min-width:1200px) {
+  main {
+    background: center 0 no-repeat url('https://ma.jumia.is/cms/000_2023/000005_Mai/Camps/BeautyWeek/BG-Beauty.png');
+  }
+}
+
+body {
+  background-color: #fdf0dd;
+}
+
+.header-wrapper {
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .12);
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-container .desktop-image {
+  width: auto !important;
+}
+
+img.mobile-image.middle {
+  padding: 10px;
+}
+
+.cart-body {
+  background: #FFF;
+}
+
+/* end every page */
+
+
+.category-item {
+  border: 1px solid #bbbbbb !important;
+/*   box-shadow: 0 0px 15px -10px rgb(0 0 0) !important; */
+  border-radius: 3px !important;
+  background-color: white !important;
+}
+
+
+.items-left {
+  margin-left: auto;
+}
+
+/*.product-item .product-title a {*/
+/*    display: contents !important;*/
+/*}*/
+.product-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 9em;
+  white-space: nowrap;
+}
+
+.product-item {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 5px 20px -10px rgba(0, 0, 0, .1);
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+
+.product-wrapper {
+  background-color: #fff;
+  padding: 5px;
+}
+
+
+.content-box-with-icon-section .grid-3 {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.container:has(.list-unstyled.is-grid.grid-3) {
+  background-color: white;
+  border-radius: 40px;
+}
+
+
+.reviews-grid {
+  grid-template-columns: repeat(1, 1fr) !important;
+}
+
+
+@media(min-width:1200px) {
+  .reviews-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+
+input[type="text"],
+textarea {
+  background-color: #fafafa !important;
+}
+
+.all-in-one-body {
+    background-color: #fff !important;
+}
+
+
+@media (max-width: 425px){
+.categories-style-1 {
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+
+/*product*/
+
+.single-product {
+  padding-bottom: unset !important;
+}
+
+.single-title img {
+    height: 1em !important;
+}
+
+        .disoount-style-1-container {
+            padding: 16px;
+            /*font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, sans-serif;*/
+        }
+
+        .disoount-style-1-header {
+            padding-top: 4px;
+            padding-left: 8px;
+            background-color: #e61601;
+            padding-right: 8px;
+            padding-bottom: 4px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            align-items: center;
+            display: flex;
+            color: white;
+            font-size: .875rem;
+        }
+
+        .disoount-style-1-title {
+            padding-bottom: 2px;
+            display: flex;
+            align-items: center;
+        }
+
+        .disoount-style-1-icon {
+            padding: 2px;
+            align-items: center;
+            display:none /*flex*/;
+            flex-shrink: 0;
+            fill: #313133;
+            height: 24px;
+            color: yellow;
+        }
+
+        .disoount-style-1-heading {
+            font-weight: 500;
+            padding: 4px;
+        }
+
+        .disoount-style-1-timer {
+            text-align: left;
+            padding: 2px;
+            flex: 1;
+        }
+
+        .disoount-style-1-time {
+            white-space: pre;
+            font-weight: 500;
+        }
+
+        .disoount-style-1-content {
+            padding: 8px;
+            flex-wrap: wrap;
+            align-items: center;
+            display: flex;
+            border-left: 1px solid #e61601;
+            border-right: 1px solid #e61601;
+            border-bottom: 1px solid #e61601;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        .disoount-style-1-price {
+            font-size: 1.25rem;
+            text-align: right;
+            font-weight: 700;
+            padding-left: 4px;
+        }
+
+        .disoount-style-1-discount {
+            align-items: center;
+            display: inline-flex;
+        }
+
+        .disoount-style-1-original-price {
+            text-decoration: line-through;
+            padding-bottom: 4px;
+            padding-top: 4px;
+            color: #75757a;
+        }
+
+        .disoount-style-1-discount-percentage {
+            margin-right: 4px;
+            min-width: 32px;
+            font-size: .75rem;
+            direction: ltr;
+            min-height: 20px;
+            color: #f68b1e;
+            background-color: #fef3e9;
+            padding-left: 4px;
+            align-items: center;
+            padding-right: 4px;
+            font-weight: 500;
+            font-family: Roboto, Arial, Helvetica, sans-serif;
+            justify-content: center;
+            display: inline-flex;
+            border-radius: 2px;
+        }
+
+        .disoount-style-1-progress {
+            padding-top: 8px;
+            width: 100%;
+            display: flex;
+        }
+
+        .disoount-style-1-remaining {
+            font-size: .75rem;
+            padding-left: 8px;
+            flex-shrink: 0;
+        }
+
+        .disoount-style-1-progress-bar {
+            background-image: linear-gradient(to right, rgb(246, 139, 30) 98%, rgb(199, 199, 205) 98%);
+            align-self: center;
+            padding-top: 8px;
+            font-size: 0;
+            transform: scaleX(-1) translateZ(0);
+            width: 100%;
+            background-position-x: right;
+            background-color: #d4d4d6;
+            border-radius: 4px;
+        }
+
+
+        .disoount-style-1-wrapper {
+            padding-right: 16px;
+            padding-left: 8px;
+            align-items: center;
+            display: flex;
+            padding-bottom: 5px;
+        }
+
+        .disoount-style-1-stars {
+            background-size: cover;
+            background-position-x: right;
+            background-repeat: no-repeat;
+            position: relative;
+            transform: scaleX(-1) translateZ(0);
+            flex-shrink: 0;
+            width: 93px;
+            height: 16px;
+            background-image: url(https://cdn.jsdelivr.net/gh/MrAbdelaziz/cdn@7eb037f803d87e7b9340e6717f1c84bdc6699d84/themes/VividMotion/stars.svg);
+        }
+
+        .disoount-style-1-ratings {
+            font-size: .75rem;
+            margin-right: 4px;
+            color: blue;
+        }
+
+      .call-to-actionbb {
+            margin-left: 8px;
+            padding-left: 12px;
+            padding-right: 12px;
+            transform: translateZ(0);
+            padding-bottom: 12px;
+            display: flex;
+            padding-top: 12px;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 0 0 1px #f68b1e;
+        }
+
+        .call-to-actionbb-icon {
+            fill: #f68b1e;flex-shrink: 0;
+        }
