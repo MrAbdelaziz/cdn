@@ -51,7 +51,7 @@ img.mobile-image.middle {
 .product-title {
   text-overflow: ellipsis;
   overflow: hidden;
-  width: 9em;
+  /*width: 9em;*/
   white-space: nowrap;
 }
 
